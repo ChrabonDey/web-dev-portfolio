@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -54,8 +55,7 @@
     background-image: url('../images/developer.png'),url('../images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left ,bottom right;
-   height:850px;
-   border: 1px solid #FFF8F3 ;
+   
    
 
 }
@@ -64,7 +64,7 @@ nav{
     display: flex;
     
     justify-content: space-between;
-    margin:50px 200px;
+    padding:50px 200px;
 }
 .nav-tittle{
     font-weight: 800;
@@ -108,7 +108,7 @@ nav ul li a{
 }
 .banner-profile-pic{
     width:580px;
-    height:696px
+    
  
 }
 /* main styles */
